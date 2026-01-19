@@ -45,7 +45,7 @@ class Solution {
 
     public static void main(String[] args){
         String nums = "1432219";
-        int k=3;
+        int k=0;
         System.out.println(removeKdigits(nums, k));
     }
 }
