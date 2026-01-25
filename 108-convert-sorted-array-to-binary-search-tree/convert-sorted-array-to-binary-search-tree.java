@@ -16,7 +16,7 @@
 class Solution {
     public static TreeNode sortedArrayToBST(int[] nums) {
 
-        //if(nums.length == 0){ return nums;}
+        if(nums.length == 0){ return null;}
 
         return bstBuilding(nums, 0, nums.length-1);
     
