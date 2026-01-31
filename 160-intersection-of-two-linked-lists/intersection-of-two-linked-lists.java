@@ -20,6 +20,8 @@ public class Solution {
         ListNode pB = headB;
 
         while(pA!=pB){
+            //condition ? value_if_true : value_if_false
+
             pA = (pA == null) ? headB : pA.next;
             pB = (pB == null) ? headA : pB.next;
         }
