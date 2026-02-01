@@ -11,8 +11,9 @@
 //         System.out.println(majorityElement(nums));
 //     }
 // }
-
+ 
 class Solution {
+    //Testing
     public static int majorityElement(int[] nums) {
         int occurance = 0;
         int result = 0;
