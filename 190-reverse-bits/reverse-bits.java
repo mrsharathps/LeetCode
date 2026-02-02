@@ -1,5 +1,5 @@
 class Solution {
-    //Testing
+    //Testing the solution
     public static int reverseBits(int n) {
 
         int result =0;
