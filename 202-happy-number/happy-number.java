@@ -1,4 +1,5 @@
 class Solution {
+    //Testing solution
     public static boolean isHappy(int n) {
 
         int slow =n;
