@@ -1,5 +1,5 @@
 class Solution {
-    //Testing the colution
+    //Testing 
     public static String longestPalindrome(String s) {
         if(s==null || s.length()<2){return s;}
 
