@@ -1,5 +1,5 @@
 class Solution {
-    //Testing the solution......
+    //Testing 
     public static int lengthOfLongestSubstring(String s) {
         if(s.length()==0){return 0;}
 
