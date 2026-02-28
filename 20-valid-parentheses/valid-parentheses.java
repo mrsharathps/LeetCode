@@ -1,4 +1,4 @@
-//Testing
+//Testing the solution....
 class Solution {
 
     public static boolean isValid(String s) {
@@ -8,19 +8,19 @@ class Solution {
 
         Stack<Character> stack = new Stack<>();
 
-        for (char ch : s.toCharArray()) {
+        for (char character : s.toCharArray()) {
 
-            if (ch == '(' || ch == '{' || ch == '[') {
-                stack.push(ch);
+            if (character == '(' || character == '{' || character == '[') {
+                stack.push(character);
             } 
             else {
                 if (stack.isEmpty()) return false;
 
                 char top = stack.pop();
 
-                if (ch == ')' && top != '(') return false;
-                if (ch == '}' && top != '{') return false;
-                if (ch == ']' && top != '[') return false;
+                if (character == ')' && top != '(') return false;
+                if (character == '}' && top != '{') return false;
+                if (character == ']' && top != '[') return false;
             }
         }
 
